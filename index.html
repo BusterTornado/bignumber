@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Lottery chances</title>
+    </head>
+    <body>
+        <h1>The chances of winning the lottery 25000 times in a row</h1>
+        <p>Even using the easiest lottery to win a jackpot in - the Polish Mini Lotto - the chances of getting a jackpot once are <span class="equation">1 in 850668</span>. This is equal to <span class="equation">1 in 10<sup>5.9297601</sup></span></p>
+        <p>The probability of an event with a 1 in <span class="equation">x</span> chance of occurring <span class="equation">n</span> times in a row is equal to 1 in <span class="equation">x<sup>n</sup></span>. For example, the probability of a coin landing heads (<span class="equation">1 in 2</span> chance) two times in a row is <span class="equation">1 in 2<sup>2</sup></span>, or <span class="equation">1 in 4</span></p>
+        <p>This means the probability of winning the lottery 25000 times in a row is <span class="equation">1 in 850668<sup>25000</sup></span>, or <span class="equation">1 in 10<sup>5.9297601<sup>25000</sup></sup></span></p>
+        <p>Using index laws, we can simplify this to <span class="equation">1 in 10<sup>(5.9297601 x 25000)</sup></span> or <span class="equation">1 in 10<sup>148244</sup></span></p>
+        <p id="probabilitynum">The chance of winning the lottery 25000 times in a row is 1 in </p>
+        <script src="bignumber.js"></script>
+    </body>
+</html>

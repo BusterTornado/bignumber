@@ -1,0 +1,12 @@
+html{
+    font-family: Arial;
+}
+.equation{
+    font-family: monospace;
+    background-color: rgb(189,186,177);
+    padding: 6px;
+}
+#probabilitynum{
+    font-weight: bold;
+    word-wrap: break-word;
+}
